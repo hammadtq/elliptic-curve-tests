@@ -1,0 +1,14 @@
+[package]
+name = "ed25519-dalek-keypair"
+version = "0.1.0"
+authors = ["Hammad Tariq <hammadtariq@yahoo.co.uk>"]
+edition = "2018"
+
+[dependencies.ed25519-dalek]
+version = "1.0.0-pre.1"
+
+[dependencies]
+rand = "*"
+rand_core = "*"
+hex = "*"
+rand_os = "*"
