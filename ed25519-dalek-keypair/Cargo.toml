@@ -4,11 +4,12 @@ version = "0.1.0"
 authors = ["Hammad Tariq <hammadtariq@yahoo.co.uk>"]
 edition = "2018"
 
-[dependencies.ed25519-dalek]
-version = "1.0.0-pre.1"
 
 [dependencies]
+ed25519-dalek = { git = "https://github.com/hammadtq/ed25519-dalek.git", rev="1f0b87f" }
+curve25519-dalek = "*"
 rand = "*"
 rand_core = "*"
 hex = "*"
 rand_os = "*"
+sha2 = "*"
